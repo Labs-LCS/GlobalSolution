@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Codaí</title>
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contato.css">
+</head>
+<body>
+    <header>
+        <a class="header-logo-link" href="./index.html">
+            <h1 class="header-logo">Codaí</h1>
+            <i class="header-logo-icon" data-lucide="message-circle-code"></i>
+        </a>
+        <div>
+            <a class="header-login" href="./login.html">Login</a>
+            <button class="header-menu-button">
+                <i class="header-menu-icon" data-lucide="menu"></i>
+            </button>
+        </div>
+        <nav class="header-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./integrantes.html">Equipe</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./app.html">Demo App</a></li>
+                <li><a class="header-links-login" href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contato-header">
+            <i class="vantagens-icon" data-lucide="mail"></i>
+            <h2>Entre em Contato</h2>
+        </div>
+
+        <section class="contato-container">
+            <form class="contato-form" method="post" action="#" aria-label="Formulário de contato">
+                <div class="form-group">
+                    <label for="nome" class="form-label">
+                        Nome
+                        <span class="required-indicator" aria-label="campo obrigatório">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="nome" 
+                        name="nome" 
+                        class="form-input" 
+                        required 
+                        autocomplete="name"
+                        aria-required="true"
+                        placeholder="Seu nome completo"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">
+                        Email
+                        <span class="required-indicator" aria-label="campo obrigatório">*</span>
+                    </label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        class="form-input" 
+                        required 
+                        autocomplete="email"
+                        aria-required="true"
+                        placeholder="seu@email.com"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto" class="form-label">
+                        Assunto
+                        <span class="required-indicator" aria-label="campo obrigatório">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="assunto" 
+                        name="assunto" 
+                        class="form-input" 
+                        required 
+                        aria-required="true"
+                        placeholder="Assunto da sua mensagem"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem" class="form-label">
+                        Mensagem
+                        <span class="required-indicator" aria-label="campo obrigatório">*</span>
+                    </label>
+                    <textarea 
+                        id="mensagem" 
+                        name="mensagem" 
+                        class="form-input form-textarea" 
+                        required 
+                        rows="6"
+                        aria-required="true"
+                        placeholder="Digite sua mensagem aqui..."
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="contato-button">
+                    Enviar Mensagem
+                </button>
+            </form>
+
+            <div class="contato-info">
+                <div class="contato-info-item">
+                    <i class="contato-info-icon" data-lucide="map-pin"></i>
+                    <div>
+                        <h3>Endereço</h3>
+                        <p>Rua Apito do Vapor, 123<br>Estação Central<br>São Paulo - SP<br>CEP 00000-000</p>
+                    </div>
+                </div>
+                <div class="contato-info-item">
+                    <i class="contato-info-icon" data-lucide="mail"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>contato@codai.com.br</p>
+                    </div>
+                </div>
+                <div class="contato-info-item">
+                    <i class="contato-info-icon" data-lucide="phone"></i>
+                    <div>
+                        <h3>Telefone</h3>
+                        <p>(11) 0000-0000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a class="footer-logo-link" href="./index.html">
+                <h1 class="footer-logo">Codaí</h1>
+                <i class="footer-logo-icon" data-lucide="message-circle-code"></i>
+            </a>
+            <section>
+                <a href="./index.html">Home</a>
+                <a href="./integrantes.html">Equipe</a>
+                <a href="./sobre.html">Sobre</a>
+                <a href="./faq.html">FAQ</a>
+                <a href="./contato.html">Contato</a>
+                <a href="./app.html">Demo App</a>
+            </section>
+        </div>
+        <section>
+            <p>© Copyright 2025 - Codaí - Todos os direitos reservados</p>
+            <p>CNPJ 12.345.678/0001-00 / Rua Apito do Vapor, 123 - Estação Central - São Paulo - SP - CEP 00000-000</p>
+        </section>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

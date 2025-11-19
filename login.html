@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Codaí</title>
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header>
+        <a class="header-logo-link" href="./index.html">
+            <h1 class="header-logo">Codaí</h1>
+            <i class="header-logo-icon" data-lucide="message-circle-code"></i>
+        </a>
+        <div>
+            <a class="header-login" href="./login.html">Login</a>
+            <button class="header-menu-button">
+                <i class="header-menu-icon" data-lucide="menu"></i>
+            </button>
+        </div>
+        <nav class="header-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./integrantes.html">Equipe</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./app.html">Demo App</a></li>
+                <li><a class="header-links-login" href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login-container">
+            <form class="login-form" method="post" action="#" aria-label="Formulário de login">
+                <div class="form-group">
+                    <label for="email" class="form-label">
+                        Email
+                        <span class="required-indicator" aria-label="campo obrigatório">*</span>
+                    </label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        class="form-input" 
+                        required 
+                        autocomplete="email"
+                        aria-required="true"
+                        aria-describedby="email-description"
+                        placeholder="seu@email.com"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">
+                        Senha
+                        <span class="required-indicator" aria-label="campo obrigatório">*</span>
+                    </label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        class="form-input" 
+                        required 
+                        autocomplete="current-password"
+                        aria-required="true"
+                        aria-describedby="password-description"
+                        placeholder="Digite sua senha"
+                    >
+                </div>
+
+                <div class="form-options">
+                    <label class="form-checkbox-label">
+                        <input 
+                            type="checkbox" 
+                            name="remember" 
+                            class="form-checkbox"
+                            aria-label="Lembrar minha sessão"
+                        >
+                        <span>Lembrar minha sessão</span>
+                    </label>
+                    <a href="#" class="form-link">Esqueceu sua senha?</a>
+                </div>
+
+                <button type="submit" class="login-button">
+                    Entrar
+                </button>
+            </form>
+
+            <div class="login-footer">
+                <p>
+                    Ainda não tem uma conta? 
+                </p>
+                <a href="./login.html" class="form-link">Cadastre-se aqui</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a class="footer-logo-link" href="./index.html">
+                <h1 class="footer-logo">Codaí</h1>
+                <i class="footer-logo-icon" data-lucide="message-circle-code"></i>
+            </a>
+            <section>
+                <a href="./index.html">Home</a>
+                <a href="./integrantes.html">Equipe</a>
+                <a href="./sobre.html">Sobre</a>
+                <a href="./faq.html">FAQ</a>
+                <a href="./contato.html">Contato</a>
+                <a href="./app.html">Demo App</a>
+            </section>
+        </div>
+        <section>
+            <p>© Copyright 2025 - Codaí - Todos os direitos reservados</p>
+            <p>CNPJ 12.345.678/0001-00 / Rua Apito do Vapor, 123 - Estação Central - São Paulo - SP - CEP 00000-000</p>
+        </section>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
