@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="pt-br" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plataforma Codaí</title>
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <header>
+      <a class="header-logo-link" href="./index.html">
+        <h1 class="header-logo">Codaí</h1>
+        <i class="header-logo-icon" data-lucide="message-circle-code"></i>
+      </a>
+      <div>
+        <button class="header-menu-button">
+          <i class="header-menu-icon" data-lucide="menu"></i>
+        </button>
+      </div>
+      <nav class="header-links">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./integrantes.html">Equipe</a></li>
+          <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="app-main">
+      <aside class="app-sidebar">
+        <nav class="sidebar-nav">
+          <a href="" class="sidebar-nav-item active">
+            <i class="sidebar-nav-icon" data-lucide="layout-grid"></i>
+            <span>Repositório</span>
+          </a>
+          <a href="" class="sidebar-nav-item">
+            <i class="sidebar-nav-icon" data-lucide="plus-circle"></i>
+            <span>Criar Agente</span>
+          </a>
+          <a href="" class="sidebar-nav-item">
+            <i class="sidebar-nav-icon" data-lucide="play-circle"></i>
+            <span>Meus Agentes</span>
+          </a>
+          <a href="" class="sidebar-nav-item">
+            <i class="sidebar-nav-icon" data-lucide="settings"></i>
+            <span>Configurações</span>
+          </a>
+        </nav>
+
+        <div class="sidebar-stats">
+          <div class="stat-card">
+            <i data-lucide="database"></i>
+            <div>
+              <span class="stat-value">247</span>
+              <span class="stat-label">Agentes</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <i data-lucide="users"></i>
+            <div>
+              <span class="stat-value">1.2k</span>
+              <span class="stat-label">Contribuidores</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="app-content">
+        <div class="app-header">
+          <div class="search-container">
+            <i class="search-icon" data-lucide="search"></i>
+            <input
+              type="text"
+              placeholder="Buscar agentes..."
+              class="search-input"
+            />
+          </div>
+          <div class="header-actions">
+            <button class="btn-filter">
+              <i data-lucide="filter"></i>
+              Filtros
+            </button>
+            <button class="btn-primary">
+              <i data-lucide="plus"></i>
+              Novo Agente
+            </button>
+          </div>
+        </div>
+
+        <div class="filters-bar">
+          <button class="filter-chip active">Todos</button>
+          <button class="filter-chip">Texto</button>
+          <button class="filter-chip">Áudio</button>
+          <button class="filter-chip">Imagem</button>
+          <button class="filter-chip">Análise</button>
+          <button class="filter-chip">Automação</button>
+        </div>
+
+        <section class="agents-container">
+          <article class="agent-card">
+            <div class="agent-card-header">
+              <div class="agent-icon">
+                <i data-lucide="mail"></i>
+              </div>
+              <div class="agent-badges">
+                <span class="badge badge-popular">Popular</span>
+                <span class="badge badge-verified">
+                  <i data-lucide="check-circle"></i>
+                </span>
+              </div>
+            </div>
+            <div class="agent-card-body">
+              <h3 class="agent-name">Resumidor de E-mails</h3>
+              <p class="agent-description">
+                Agente especializado em resumir e organizar e-mails
+                automaticamente. Processa mensagens localmente garantindo
+                privacidade total.
+              </p>
+              <div class="agent-tags">
+                <span class="tag">Texto</span>
+                <span class="tag">Produtividade</span>
+              </div>
+            </div>
+            <div class="agent-card-footer">
+              <div class="agent-stats">
+                <span>
+                  <i data-lucide="download"></i>
+                  1.2k
+                </span>
+                <span>
+                  <i data-lucide="star"></i>
+                  89
+                </span>
+              </div>
+              <button class="btn-agent">
+                <i data-lucide="play"></i>
+                Executar
+              </button>
+            </div>
+          </article>
+
+          <article class="agent-card">
+            <div class="agent-card-header">
+              <div class="agent-icon">
+                <i data-lucide="wrench"></i>
+              </div>
+              <div class="agent-badges">
+                <span class="badge badge-new">Novo</span>
+              </div>
+            </div>
+            <div class="agent-card-body">
+              <h3 class="agent-name">Detector de Problemas</h3>
+              <p class="agent-description">
+                Identifica problemas em motores através de análise de áudio.
+                Adaptável para diferentes tipos de equipamentos.
+              </p>
+              <div class="agent-tags">
+                <span class="tag">Áudio</span>
+                <span class="tag">Manutenção</span>
+              </div>
+            </div>
+            <div class="agent-card-footer">
+              <div class="agent-stats">
+                <span>
+                  <i data-lucide="download"></i>
+                  342
+                </span>
+                <span>
+                  <i data-lucide="star"></i>
+                  24
+                </span>
+              </div>
+              <button class="btn-agent">
+                <i data-lucide="play"></i>
+                Executar
+              </button>
+            </div>
+          </article>
+
+          <article class="agent-card">
+            <div class="agent-card-header">
+              <div class="agent-icon">
+                <i data-lucide="file-text"></i>
+              </div>
+              <div class="agent-badges">
+                <span class="badge badge-verified">
+                  <i data-lucide="check-circle"></i>
+                </span>
+              </div>
+            </div>
+            <div class="agent-card-body">
+              <h3 class="agent-name">Sintetizador de Atas</h3>
+              <p class="agent-description">
+                Converte transcrições de reuniões em atas estruturadas e resumos
+                executivos. Preserva informações importantes automaticamente.
+              </p>
+              <div class="agent-tags">
+                <span class="tag">Texto</span>
+                <span class="tag">Reuniões</span>
+              </div>
+            </div>
+            <div class="agent-card-footer">
+              <div class="agent-stats">
+                <span>
+                  <i data-lucide="download"></i>
+                  856
+                </span>
+                <span>
+                  <i data-lucide="star"></i>
+                  67
+                </span>
+              </div>
+              <button class="btn-agent">
+                <i data-lucide="play"></i>
+                Executar
+              </button>
+            </div>
+          </article>
+
+          <article class="agent-card">
+            <div class="agent-card-header">
+              <div class="agent-icon">
+                <i data-lucide="bar-chart"></i>
+              </div>
+              <div class="agent-badges">
+                <span class="badge badge-popular">Popular</span>
+              </div>
+            </div>
+            <div class="agent-card-body">
+              <h3 class="agent-name">Analisador de Dados</h3>
+              <p class="agent-description">
+                Processa e analisa datasets localmente. Gera insights e
+                visualizações sem enviar dados para servidores externos.
+              </p>
+              <div class="agent-tags">
+                <span class="tag">Análise</span>
+                <span class="tag">Dados</span>
+              </div>
+            </div>
+            <div class="agent-card-footer">
+              <div class="agent-stats">
+                <span>
+                  <i data-lucide="download"></i>
+                  2.1k
+                </span>
+                <span>
+                  <i data-lucide="star"></i>
+                  156
+                </span>
+              </div>
+              <button class="btn-agent">
+                <i data-lucide="play"></i>
+                Executar
+              </button>
+            </div>
+          </article>
+
+          <article class="agent-card">
+            <div class="agent-card-header">
+              <div class="agent-icon">
+                <i data-lucide="image"></i>
+              </div>
+              <div class="agent-badges"></div>
+            </div>
+            <div class="agent-card-body">
+              <h3 class="agent-name">Classificador de Imagens</h3>
+              <p class="agent-description">
+                Classifica e organiza imagens por categorias. Treinável para
+                reconhecer padrões específicos do seu contexto.
+              </p>
+              <div class="agent-tags">
+                <span class="tag">Imagem</span>
+                <span class="tag">Classificação</span>
+              </div>
+            </div>
+            <div class="agent-card-footer">
+              <div class="agent-stats">
+                <span>
+                  <i data-lucide="download"></i>
+                  623
+                </span>
+                <span>
+                  <i data-lucide="star"></i>
+                  43
+                </span>
+              </div>
+              <button class="btn-agent">
+                <i data-lucide="play"></i>
+                Executar
+              </button>
+            </div>
+          </article>
+
+          <article class="agent-card">
+            <div class="agent-card-header">
+              <div class="agent-icon">
+                <i data-lucide="zap"></i>
+              </div>
+              <div class="agent-badges">
+                <span class="badge badge-new">Novo</span>
+              </div>
+            </div>
+            <div class="agent-card-body">
+              <h3 class="agent-name">Automatizador de Tarefas</h3>
+              <p class="agent-description">
+                Automatiza tarefas repetitivas baseado em padrões aprendidos.
+                Adapta-se ao seu fluxo de trabalho específico.
+              </p>
+              <div class="agent-tags">
+                <span class="tag">Automação</span>
+                <span class="tag">Produtividade</span>
+              </div>
+            </div>
+            <div class="agent-card-footer">
+              <div class="agent-stats">
+                <span>
+                  <i data-lucide="download"></i>
+                  445
+                </span>
+                <span>
+                  <i data-lucide="star"></i>
+                  31
+                </span>
+              </div>
+              <button class="btn-agent">
+                <i data-lucide="play"></i>
+                Executar
+              </button>
+            </div>
+          </article>
+        </section>
+      </div>
+
+      <aside class="app-panel" id="agent-panel">
+        <div class="panel-header">
+          <h3>Executar Agente</h3>
+          <button class="btn-close" id="close-panel">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+        <div class="panel-content">
+          <div class="panel-agent-info">
+            <div class="panel-agent-icon">
+              <i data-lucide="mail"></i>
+            </div>
+            <h4>Resumidor de E-mails</h4>
+            <p class="panel-agent-description">
+              Agente especializado em resumir e organizar e-mails
+              automaticamente.
+            </p>
+          </div>
+
+          <div class="panel-section">
+            <label class="panel-label">
+              <i data-lucide="upload"></i>
+              Entrada
+            </label>
+            <textarea
+              class="panel-input"
+              placeholder="Cole seus e-mails aqui ou faça upload de um arquivo..."
+              rows="6"
+            ></textarea>
+            <button class="btn-secondary">
+              <i data-lucide="file"></i>
+              Upload de Arquivo
+            </button>
+          </div>
+
+          <div class="panel-section">
+            <label class="panel-label">
+              <i data-lucide="settings"></i>
+              Configurações
+            </label>
+            <div class="panel-options">
+              <label class="checkbox-label">
+                <input type="checkbox" checked />
+                <span>Incluir remetentes</span>
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" />
+                <span>Priorizar por data</span>
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" checked />
+                <span>Resumo executivo</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="panel-section">
+            <button class="btn-primary btn-full">
+              <i data-lucide="play"></i>
+              Executar Agente
+            </button>
+          </div>
+
+          <div class="panel-section">
+            <label class="panel-label">
+              <i data-lucide="file-text"></i>
+              Resultado
+            </label>
+            <div class="panel-result">
+              <p class="result-placeholder">
+                Execute o agente para ver os resultados aqui. O processamento
+                acontece localmente no seu dispositivo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+    </main>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
