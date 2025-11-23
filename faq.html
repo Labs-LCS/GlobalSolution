@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/faq.css">
 </head>
+
 <body>
     <header>
         <a class="header-logo-link" href="./index.html">
@@ -16,6 +18,10 @@
         </a>
         <div>
             <a class="header-login" href="./login.html">Login</a>
+            <button class="theme-toggle-btn mobile-only" aria-label="Alternar tema">
+                <i class="sun-icon" data-lucide="sun"></i>
+                <i class="moon-icon" data-lucide="moon"></i>
+            </button>
             <button class="header-menu-button">
                 <i class="header-menu-icon" data-lucide="menu"></i>
             </button>
@@ -29,6 +35,12 @@
                 <li><a href="./contato.html">Contato</a></li>
                 <li><a href="./app.html">Demo App</a></li>
                 <li><a class="header-links-login" href="./login.html">Login</a></li>
+                <li class="desktop-only">
+                    <button class="theme-toggle-btn" aria-label="Alternar tema">
+                        <i class="sun-icon" data-lucide="sun"></i>
+                        <i class="moon-icon" data-lucide="moon"></i>
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>
@@ -45,9 +57,9 @@
                     <h3>O que é o Codaí?</h3>
                 </summary>
                 <p>
-                    O Codaí é uma plataforma de compartilhamento e versionamento de agentes de inteligência artificial 
-                    e Small Language Models (SLMs) voltada ao self-hosting. Funcionamos como um grande repositório 
-                    colaborativo onde desenvolvedores podem hospedar o código-fonte de seus agentes, disponibilizando 
+                    O Codaí é uma plataforma de compartilhamento e versionamento de agentes de inteligência artificial
+                    e Small Language Models (SLMs) voltada ao self-hosting. Funcionamos como um grande repositório
+                    colaborativo onde desenvolvedores podem hospedar o código-fonte de seus agentes, disponibilizando
                     também formas de alterar e adaptar esses agentes para novos contextos.
                 </p>
             </details>
@@ -57,12 +69,13 @@
                     <h3>Como funciona o auto-hospedamento (self-hosting)?</h3>
                 </summary>
                 <p>
-                    O auto-hospedamento significa que você executa os agentes de IA diretamente no seu próprio dispositivo 
-                    ou servidor, sem depender de serviços externos. Isso garante que seus dados permaneçam privados e 
+                    O auto-hospedamento significa que você executa os agentes de IA diretamente no seu próprio
+                    dispositivo
+                    ou servidor, sem depender de serviços externos. Isso garante que seus dados permaneçam privados e
                     sob seu controle, sem serem enviados para servidores de terceiros.
                 </p>
                 <p>
-                    Nossa plataforma oferece agentes pré-desenvolvidos que podem ser baixados e executados localmente, 
+                    Nossa plataforma oferece agentes pré-desenvolvidos que podem ser baixados e executados localmente,
                     permitindo que você tenha total controle sobre seus dados e processos.
                 </p>
             </details>
@@ -72,12 +85,12 @@
                     <h3>Preciso ter conhecimento técnico avançado para usar o Codaí?</h3>
                 </summary>
                 <p>
-                    Não necessariamente! O Codaí foi criado para reduzir as barreiras de entrada para o uso de IA. 
-                    Oferecemos agentes pré-desenvolvidos que podem ser adaptados sem necessidade de conhecimento técnico 
+                    Não necessariamente! O Codaí foi criado para reduzir as barreiras de entrada para o uso de IA.
+                    Oferecemos agentes pré-desenvolvidos que podem ser adaptados sem necessidade de conhecimento técnico
                     profundo. Além disso, fornecemos materiais educativos voltados ao público leigo.
                 </p>
                 <p>
-                    Para usuários mais avançados, a plataforma também permite contribuições, versionamento e melhorias 
+                    Para usuários mais avançados, a plataforma também permite contribuições, versionamento e melhorias
                     nos agentes existentes.
                 </p>
             </details>
@@ -87,8 +100,9 @@
                     <h3>O Codaí é gratuito?</h3>
                 </summary>
                 <p>
-                    Sim! O Codaí é uma plataforma open source e gratuita. Todo o conteúdo — modelos, códigos e processos 
-                    de treinamento — é aberto e auditável. Não cobramos por uso da plataforma ou pelos agentes disponíveis.
+                    Sim! O Codaí é uma plataforma open source e gratuita. Todo o conteúdo — modelos, códigos e processos
+                    de treinamento — é aberto e auditável. Não cobramos por uso da plataforma ou pelos agentes
+                    disponíveis.
                 </p>
             </details>
 
@@ -97,8 +111,9 @@
                     <h3>Meus dados estão seguros?</h3>
                 </summary>
                 <p>
-                    Absolutamente! Como tudo roda localmente e de forma auto-hospedada, seus dados permanecem com você. 
-                    Nenhuma informação é enviada para nossos servidores ou para terceiros. A transparência do código e dos 
+                    Absolutamente! Como tudo roda localmente e de forma auto-hospedada, seus dados permanecem com você.
+                    Nenhuma informação é enviada para nossos servidores ou para terceiros. A transparência do código e
+                    dos
                     modelos garante que você possa auditar tudo que está sendo executado.
                 </p>
             </details>
@@ -108,8 +123,9 @@
                     <h3>Posso contribuir com agentes para a plataforma?</h3>
                 </summary>
                 <p>
-                    Sim! A colaboração é um dos nossos valores fundamentais. Qualquer pessoa pode contribuir com agentes, 
-                    melhorias, ajustes ou dados. Cada agente pode ser compartilhado, versionado e melhorado pela 
+                    Sim! A colaboração é um dos nossos valores fundamentais. Qualquer pessoa pode contribuir com
+                    agentes,
+                    melhorias, ajustes ou dados. Cada agente pode ser compartilhado, versionado e melhorado pela
                     comunidade, criando uma rede de conhecimento verdadeiramente aberta.
                 </p>
             </details>
@@ -119,9 +135,10 @@
                     <h3>Qual a diferença entre os agentes do Codaí e modelos como ChatGPT?</h3>
                 </summary>
                 <p>
-                    Diferente de grandes modelos como ChatGPT ou Gemini, focamos em modelos menores, open-source e 
-                    voltados a tarefas específicas. Esses modelos, apesar de não desempenharem bem em situações complexas, 
-                    são muito capazes de lidar com tarefas bastante específicas e podem rodar diretamente no dispositivo 
+                    Diferente de grandes modelos como ChatGPT ou Gemini, focamos em modelos menores, open-source e
+                    voltados a tarefas específicas. Esses modelos, apesar de não desempenharem bem em situações
+                    complexas,
+                    são muito capazes de lidar com tarefas bastante específicas e podem rodar diretamente no dispositivo
                     do usuário, sem necessidade de conexão com servidores externos.
                 </p>
             </details>
@@ -131,8 +148,9 @@
                     <h3>Que tipo de hardware preciso para executar os agentes?</h3>
                 </summary>
                 <p>
-                    Os agentes do Codaí são projetados para rodar em dispositivos comuns. Modelos menores e especializados 
-                    podem ser executados até mesmo em smartphones ou computadores pessoais básicos. Não é necessário 
+                    Os agentes do Codaí são projetados para rodar em dispositivos comuns. Modelos menores e
+                    especializados
+                    podem ser executados até mesmo em smartphones ou computadores pessoais básicos. Não é necessário
                     hardware de alto custo ou supercomputadores.
                 </p>
             </details>
@@ -161,8 +179,9 @@
     </footer>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
-      lucide.createIcons();
+        lucide.createIcons();
     </script>
     <script src="./js/script.js"></script>
 </body>
+
 </html>

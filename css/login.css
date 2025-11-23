@@ -140,7 +140,7 @@
 .login-button {
     padding: var(--spacing-base) var(--spacing-xlarge);
     border-radius: 1.5rem;
-    border: 1px solid purple;
+    border: 1px solid var(--brand-primary);
     background-color: var(--brand-primary);
     color: var(--text-darkest);
     font-family: "Verdana", sans-serif;

@@ -1,6 +1,5 @@
 :root {
-  /* Colors */
-  --brand-primary: hsla(18, 85%, 50%, 1);
+  --brand-primary: hsl(279, 100%, 40%);
   --brand-primary-light: hsla(18, 85%, 50%, 0.1);
 
   --interface-darkest: hsla(17, 17%, 8%, 1);
@@ -13,7 +12,7 @@
 
   --interface-shadow: hsla(220, 14%, 10%, 0.3);
 
-  --box-shadow: 0 2px 8px purple;
+  --box-shadow: 0 2px 8px hsl(279, 100%, 40%);
 
   --interface-info: hsla(216, 100%, 57%, 1);
   --interface-success: hsla(140, 56%, 41%, 1);
@@ -25,25 +24,33 @@
   --text-base: hsla(215, 14%, 34%, 1);
   --text-light: hsla(240, 4%, 46%, 1);
 
-  --text-shadow: 0 0 4px purple;
-  --text-shadow-big: 0 0 8px purple;
+  --text-shadow: 0 0 1px hsl(279, 100%, 50%);
+  --text-shadow-big: 0 0 2px hsl(279, 100%, 40%);
 
   --common-light: hsla(0, 0%, 100%, 1);
   --common-dark: hsla(0, 0%, 0%, 1);
 
   /* Spacing */
-  --spacing-2xlarge: 2rem; /* 32px */
-  --spacing-xlarge: 1.5rem; /* 24px */
-  --spacing-large: 1.25rem; /* 20px */
-  --spacing-medium: 1.125rem; /* 18px */
-  --spacing-base: 1rem; /* 16px */
-  --spacing-small: .875rem; /* 14px */
-  --spacing-xsmall: .75rem; /* 12px */
-  --spacing-2xsmall: .625rem; /* 10px */
+  --spacing-2xlarge: 2rem;
+  /* 32px */
+  --spacing-xlarge: 1.5rem;
+  /* 24px */
+  --spacing-large: 1.25rem;
+  /* 20px */
+  --spacing-medium: 1.125rem;
+  /* 18px */
+  --spacing-base: 1rem;
+  /* 16px */
+  --spacing-small: .875rem;
+  /* 14px */
+  --spacing-xsmall: .75rem;
+  /* 12px */
+  --spacing-2xsmall: .625rem;
+  /* 10px */
 }
 
 :root[data-theme="dark"] {
-  --brand-primary: hsla(18, 85%, 55%, 1);
+  --brand-primary: hsl(279, 100%, 40%);
   --brand-primary-light: hsla(18, 85%, 60%, 0.15);
 
   --interface-darkest: hsla(0, 0%, 100%, 0.92);
@@ -56,7 +63,7 @@
 
   --interface-shadow: hsla(220, 14%, 50%, 0.5);
 
-  --box-shadow: 0 2px 8px purple;
+  --box-shadow: 0 2px 8px hsl(279, 100%, 40%);
 
   --interface-info: hsla(216, 100%, 68%, 1);
   --interface-success: hsla(140, 65%, 50%, 1);
@@ -68,8 +75,8 @@
   --text-base: hsla(0, 0%, 80%, 1);
   --text-light: hsla(0, 0%, 65%, 1);
 
-  --text-shadow: 0 0 4px purple;
-  --text-shadow-big: 0 0 8px purple;
+  --text-shadow: 0 0 4px hsl(279, 100%, 40%);
+  --text-shadow-big: 0 0 8px hsl(279, 100%, 40%);
 
   --common-light: hsla(0, 0%, 10%, 1);
   --common-dark: hsla(0, 0%, 100%, 1);
