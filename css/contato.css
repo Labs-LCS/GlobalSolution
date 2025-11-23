@@ -99,7 +99,7 @@
 .contato-button {
     padding: var(--spacing-base) var(--spacing-xlarge);
     border-radius: 1.5rem;
-    border: 1px solid purple;
+    border: 1px solid var(--brand-primary);
     background-color: var(--brand-primary);
     color: var(--text-darkest);
     font-family: "Verdana", sans-serif;
@@ -149,8 +149,8 @@
     padding: var(--spacing-base);
     background: linear-gradient(135deg, rgba(183, 0, 255, 0.10) 0%, rgba(0, 0, 0, 0) 80%);
     border-radius: 0.5rem;
-    border-left: solid 4px purple;
-    border-top: solid 1px purple;
+    border-left: solid 4px var(--brand-primary);
+    border-top: solid 1px var(--brand-primary);
     border-left-style: ridge;
 
     & h3 {

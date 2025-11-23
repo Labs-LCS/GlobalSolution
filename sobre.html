@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/sobre.css">
 </head>
+
 <body>
     <header>
         <a class="header-logo-link" href="./index.html">
@@ -16,6 +18,10 @@
         </a>
         <div>
             <a class="header-login" href="./login.html">Login</a>
+            <button class="theme-toggle-btn mobile-only" aria-label="Alternar tema">
+                <i class="sun-icon" data-lucide="sun"></i>
+                <i class="moon-icon" data-lucide="moon"></i>
+            </button>
             <button class="header-menu-button">
                 <i class="header-menu-icon" data-lucide="menu"></i>
             </button>
@@ -29,6 +35,12 @@
                 <li><a href="./contato.html">Contato</a></li>
                 <li><a href="./app.html">Demo App</a></li>
                 <li><a class="header-links-login" href="./login.html">Login</a></li>
+                <li class="desktop-only">
+                    <button class="theme-toggle-btn" aria-label="Alternar tema">
+                        <i class="sun-icon" data-lucide="sun"></i>
+                        <i class="moon-icon" data-lucide="moon"></i>
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>
@@ -45,16 +57,16 @@
                     <h3>Nossa História</h3>
                 </summary>
                 <p>
-                    O Codaí nasceu da observação de um problema crescente: enquanto a inteligência artificial se torna 
-                    cada vez mais presente no dia a dia das pessoas, o acesso a essas tecnologias permanece limitado 
-                    por barreiras técnicas e econômicas. Identificamos que a maioria das pessoas desconhece a 
-                    possibilidade de auto-hospedar agentes de IA em seus próprios dispositivos, ficando dependentes 
+                    O Codaí nasceu da observação de um problema crescente: enquanto a inteligência artificial se torna
+                    cada vez mais presente no dia a dia das pessoas, o acesso a essas tecnologias permanece limitado
+                    por barreiras técnicas e econômicas. Identificamos que a maioria das pessoas desconhece a
+                    possibilidade de auto-hospedar agentes de IA em seus próprios dispositivos, ficando dependentes
                     de soluções comerciais que tratam dados como produto.
                 </p>
                 <p>
-                    Nossa jornada começou com a visão de criar um grande repositório colaborativo de agentes de IA e 
-                    Small Language Models (SLMs) voltados ao self-hosting. A ideia é simples: eliminar a dependência 
-                    de grandes corporações e permitir que qualquer pessoa, independentemente do nível técnico ou poder 
+                    Nossa jornada começou com a visão de criar um grande repositório colaborativo de agentes de IA e
+                    Small Language Models (SLMs) voltados ao self-hosting. A ideia é simples: eliminar a dependência
+                    de grandes corporações e permitir que qualquer pessoa, independentemente do nível técnico ou poder
                     aquisitivo, possa criar, adaptar e executar ferramentas de IA localmente.
                 </p>
             </details>
@@ -64,15 +76,15 @@
                     <h3>Nossa Missão</h3>
                 </summary>
                 <p>
-                    Democratizar o acesso à inteligência artificial através de uma plataforma de compartilhamento e 
-                    versionamento de agentes de IA e modelos de linguagem voltados ao auto-hospedamento. Acreditamos 
-                    que a IA não deve ser privilégio de quem possui supercomputadores ou pode pagar por serviços 
+                    Democratizar o acesso à inteligência artificial através de uma plataforma de compartilhamento e
+                    versionamento de agentes de IA e modelos de linguagem voltados ao auto-hospedamento. Acreditamos
+                    que a IA não deve ser privilégio de quem possui supercomputadores ou pode pagar por serviços
                     comerciais.
                 </p>
                 <p>
-                    Nossa missão é reduzir as barreiras de entrada para o uso de tecnologias baseadas em IA, 
-                    oferecendo soluções intermediárias pré-desenvolvidas que podem ser adaptadas por qualquer pessoa. 
-                    Queremos promover a conscientização sobre a possibilidade de utilizar ferramentas de IA sem 
+                    Nossa missão é reduzir as barreiras de entrada para o uso de tecnologias baseadas em IA,
+                    oferecendo soluções intermediárias pré-desenvolvidas que podem ser adaptadas por qualquer pessoa.
+                    Queremos promover a conscientização sobre a possibilidade de utilizar ferramentas de IA sem
                     necessariamente ser um expert no assunto, tudo isso de forma segura, transparente e colaborativa.
                 </p>
             </details>
@@ -82,22 +94,22 @@
                     <h3>Nossos Valores</h3>
                 </summary>
                 <p>
-                    <strong>Open Source e Transparência:</strong> Todo conteúdo — modelos, códigos e processos de 
-                    treinamento — é aberto e auditável. Acreditamos que a transparência é fundamental para construir 
+                    <strong>Open Source e Transparência:</strong> Todo conteúdo — modelos, códigos e processos de
+                    treinamento — é aberto e auditável. Acreditamos que a transparência é fundamental para construir
                     confiança e eliminar dependências de grandes empresas.
                 </p>
                 <p>
-                    <strong>Colaboração:</strong> Cada agente pode ser compartilhado, versionado e melhorado pela 
-                    comunidade. Qualquer pessoa pode contribuir com dados, ajustes ou melhorias, criando uma rede 
+                    <strong>Colaboração:</strong> Cada agente pode ser compartilhado, versionado e melhorado pela
+                    comunidade. Qualquer pessoa pode contribuir com dados, ajustes ou melhorias, criando uma rede
                     de conhecimento verdadeiramente aberta.
                 </p>
                 <p>
-                    <strong>Acessibilidade:</strong> Acreditamos que a IA deve ser acessível a todos, independentemente 
-                    do nível técnico ou poder aquisitivo. Nossa plataforma reduz a complexidade ao oferecer agentes 
+                    <strong>Acessibilidade:</strong> Acreditamos que a IA deve ser acessível a todos, independentemente
+                    do nível técnico ou poder aquisitivo. Nossa plataforma reduz a complexidade ao oferecer agentes
                     prontos para adaptar e processos de treinamento simplificados.
                 </p>
                 <p>
-                    <strong>Privacidade e Segurança:</strong> Como tudo roda localmente e de forma auto-hospedada, 
+                    <strong>Privacidade e Segurança:</strong> Como tudo roda localmente e de forma auto-hospedada,
                     os dados dos usuários permanecem com eles. Não tratamos dados como produto.
                 </p>
             </details>
@@ -107,15 +119,15 @@
                     <h3>Nossa Visão</h3>
                 </summary>
                 <p>
-                    Vislumbramos um futuro onde qualquer pessoa, em qualquer lugar, possa criar e utilizar agentes de 
-                    IA personalizados para suas necessidades específicas, sem depender de grandes corporações ou 
-                    serviços pagos. Queremos ser a principal plataforma de referência para compartilhamento e 
+                    Vislumbramos um futuro onde qualquer pessoa, em qualquer lugar, possa criar e utilizar agentes de
+                    IA personalizados para suas necessidades específicas, sem depender de grandes corporações ou
+                    serviços pagos. Queremos ser a principal plataforma de referência para compartilhamento e
                     versionamento de soluções de IA open source.
                 </p>
                 <p>
-                    Nossa visão é construir uma comunidade global que valoriza a transparência, a colaboração e o 
-                    conhecimento aberto. Acreditamos que, ao promover o uso de modelos menores, especializados e 
-                    voltados a tarefas específicas, podemos criar um ecossistema mais diverso, inclusivo e 
+                    Nossa visão é construir uma comunidade global que valoriza a transparência, a colaboração e o
+                    conhecimento aberto. Acreditamos que, ao promover o uso de modelos menores, especializados e
+                    voltados a tarefas específicas, podemos criar um ecossistema mais diverso, inclusivo e
                     verdadeiramente democrático de inteligência artificial.
                 </p>
             </details>
@@ -125,21 +137,21 @@
                     <h3>O Que Fazemos</h3>
                 </summary>
                 <p>
-                    O Codaí é uma plataforma de compartilhamento e versionamento de agentes de inteligência artificial 
-                    e Small Language Models (SLMs) voltada ao self-hosting. Nossa plataforma funciona como um grande 
-                    repositório colaborativo onde desenvolvedores podem hospedar o código-fonte de seus agentes, 
+                    O Codaí é uma plataforma de compartilhamento e versionamento de agentes de inteligência artificial
+                    e Small Language Models (SLMs) voltada ao self-hosting. Nossa plataforma funciona como um grande
+                    repositório colaborativo onde desenvolvedores podem hospedar o código-fonte de seus agentes,
                     disponibilizando também formas de alterar e adaptar esses agentes para novos contextos.
                 </p>
                 <p>
-                    Diferente de tentar replicar grandes modelos como ChatGPT ou Gemini, focamos em modelos menores, 
-                    open-source e voltados a tarefas específicas. Esses modelos, apesar de não desempenharem bem em 
-                    situações complexas, são muito capazes de lidar com tarefas bastante específicas e podem rodar 
+                    Diferente de tentar replicar grandes modelos como ChatGPT ou Gemini, focamos em modelos menores,
+                    open-source e voltados a tarefas específicas. Esses modelos, apesar de não desempenharem bem em
+                    situações complexas, são muito capazes de lidar com tarefas bastante específicas e podem rodar
                     diretamente no dispositivo do usuário.
                 </p>
                 <p>
-                    Além da plataforma técnica, oferecemos materiais educativos voltados ao público leigo, ensinando 
-                    não apenas a "conversar com uma LLM de alguma Big Tech", mas a utilizar de forma produtiva as 
-                    soluções open source disponíveis. Isso promove ainda mais a conscientização sobre a importância 
+                    Além da plataforma técnica, oferecemos materiais educativos voltados ao público leigo, ensinando
+                    não apenas a "conversar com uma LLM de alguma Big Tech", mas a utilizar de forma produtiva as
+                    soluções open source disponíveis. Isso promove ainda mais a conscientização sobre a importância
                     da comunidade de código aberto e da independência tecnológica.
                 </p>
             </details>
@@ -168,8 +180,9 @@
     </footer>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
-      lucide.createIcons();
+        lucide.createIcons();
     </script>
     <script src="./js/script.js"></script>
 </body>
+
 </html>
