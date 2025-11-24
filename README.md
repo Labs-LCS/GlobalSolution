@@ -1,3 +1,5 @@
+https://github.com/Labs-LCS/GlobalSolution
+
 # Codaí - Plataforma de Agentes de IA
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
